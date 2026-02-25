@@ -1,0 +1,12 @@
+***CONCLUSÃO***
+Verificamos condicionais usando if
+como declarar listas de objetos com os []
+e dois tipos de comandos de loop, while e for.
+vimos também como podemos interromper esses lopes com exceções ou usando
+o comando break, e comom podemos utilizar loops com objetos iteráveis, pore exemplo no caso 
+do objeto retornado pela função range()
+descobrimos como combinar for e range() para gerar um loop de inteiros em sequencia
+por exemplo for(i = 0; i < n; i++), o básico do uso de módulos foi coberto com o comando import
+e algumas variações foram explicadas. também aprendemos um pouco sobre o básico de funções e algumas de suas
+características, como packing e unpacking. A partir de agora, vamos criar uma série de pequenos programas
+para motivar e contextualizar melhor os recursos da linguagem.
