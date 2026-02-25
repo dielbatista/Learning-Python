@@ -15,8 +15,8 @@ print(numbers)
 
 """In Python, if(loops) evaluates to false"""
 
-lista = []
-    if lista :
-        print("never be executed")
-    else:
-        print("always be executed")
+lista = [] 
+if lista :
+    print("never be executed")
+else:
+    print("always be executed")
