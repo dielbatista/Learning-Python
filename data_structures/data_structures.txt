@@ -1,0 +1,40 @@
+1. Concept: Linear Structures 
+
+Imagine a queue at a coffee shop. People stand in a single line; the first person to arrive is the first to be served, and new people join the end of the line.
+
+In computer science, linear structures follow a similar logic. The main types are:
+
+    Arrays/Lists: Like a row of lockers, each with a number (index). You can jump to any locker if you know its number.
+
+    Stacks: Like a stack of plates. You can only add or remove the plate at the very top (Last-In, First-Out or LIFO).
+
+    Queues: Like the coffee shop line. The first one in is the first one out (First-In, First-Out or FIFO).
+
+    Linked Lists: Like a scavenger hunt. Each item contains the data and a "clue" (pointer) to where the next item is located.
+
+---------------------------Comparison Table------------------------------
+------Structure	         Logic	          Main Use Case
+
+------List	->           Index-based	  Storing a collection of items for random access.
+------Stack	->           LIFO	          "Undo" buttons, function calls (Recursion).
+------Queue	->           FIFO	          Printer tasks, handling web requests.
+------Linked->           List	          Pointer-based	Efficient insertions/deletions in the middle.
+
+
+
+2. Concept: Non-Linear Structures (No Coding)
+
+If a linear structure is a single-lane road, a non-linear structure is a map of a city or a family tree.
+
+    Trees: Imagine a company hierarchy. There is one CEO at the top (the Root), who has managers below them (the Nodes), and those managers have employees (the Leaves). Data flows from top to bottom.
+
+    Graphs: Think of a social network like Instagram or LinkedIn. You are a point (a Vertex), and your connection to a friend is a line 
+    (an Edge). Unlike a tree, there is no "top" or "bottom"; everyone can be connected to anyone else in a messy web.
+
+
+Comparison: Trees vs. Graphs
+-----Feature	    Tree	                     Graph
+-----Shape	  ->    Hierarchical (Top-down)	     Network (Interconnected)
+-----Root	  ->    Has exactly one root	     No unique root
+-----Cycles	  ->    No loops allowed	         Can have loops (cycles)
+-----Use Case ->	File systems, HTML DOM	     Maps/GPS, Social Networks
