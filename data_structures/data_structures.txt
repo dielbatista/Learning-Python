@@ -38,3 +38,13 @@ Comparison: Trees vs. Graphs
 -----Root	  ->    Has exactly one root	     No unique root
 -----Cycles	  ->    No loops allowed	         Can have loops (cycles)
 -----Use Case ->	File systems, HTML DOM	     Maps/GPS, Social Networks
+
+
+* Linked Lists
+Main Concepts
+Before going more in depth on what linked lists are and how you can use them,
+you should first learn how they are structured. Each element of a link lists is called a node, andevery node  has two different fields:
+
+1. Data contains the value to be stored in the node.
+2. Next contains a reference to the next node on the list.
+
