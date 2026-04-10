@@ -11,3 +11,7 @@ add = lambda x, y: x + y
 type(add)
 
 dis.dis(add)
+
+"""we can see that dis() expose a readable version of the bytecode allowing the
+inspection of the low-level instructions that the python interpreter will use while executing the program."""
+
