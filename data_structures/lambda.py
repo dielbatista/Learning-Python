@@ -36,3 +36,9 @@ with parentheses."""
 
 full_name = lambda first, last: f'Full name: {first.title()} {last.title()}'
 print(full_name('guido', 'van rossum'))
+
+"""The lambda function assigned to full_name takes two arguments and returns a string
+interpolating the two parameters first and last. As expected, the definition of the lambda
+lists the arguments with no parentheses, whereas calling the function is done exactly a normal python function,
+with parentheses surrounding the arguments."""
+
