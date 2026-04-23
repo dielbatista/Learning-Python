@@ -7,15 +7,16 @@ Open a new editor window in IDLE and type in the following Dog class:"""
 class Dog:
     species = "Canis familiaris"
     
-    def __init__(self, name, age):
+    def __init__(self, name, age, breed):
         self.name = name
         self.age = age
+        self.breed = breed
         
         #instance method
         
  #  def description(self):
     def __str__(self):
-        return f"{self.name} is {self.age} years old"
+        return f"{self.name} has {self.age} years old, and his breed is {self.breed}"
     
         #Another instance Method
     def speak(self, sound):
@@ -23,7 +24,7 @@ class Dog:
     
     
     
-miles = Dog("Miles", 6)
+miles = Dog("Miles",6, "caramelo")
 # print(miles.description()) 
 """description() returns a string displaying the name and age of the dog
    speak() has one parameter called sound and return string containing the dog's name and the sound that the dog makes"""
